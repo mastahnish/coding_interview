@@ -1,0 +1,130 @@
+{
+  "@@locale": "en",
+  "appTitle": "Currency Exchange Calculator",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "appDescription": "Calculate exchange rates between FIAT and CRYPTO currencies in real-time",
+  "@appDescription": {
+    "description": "Description of what the app does"
+  },
+  "selectCurrency": "Select Currency",
+  "@selectCurrency": {
+    "description": "Label for currency selection dropdown"
+  },
+  "amountToExchange": "Amount to Exchange",
+  "@amountToExchange": {
+    "description": "Label for amount input field"
+  },
+  "amountHint": "0.00",
+  "@amountHint": {
+    "description": "Hint text for amount input field"
+  },
+  "calculatingExchangeRate": "Calculating exchange rate...",
+  "@calculatingExchangeRate": {
+    "description": "Text shown when calculating exchange rate"
+  },
+  "enterAmountToSeeExchangeRate": "Enter amount to see exchange rate",
+  "@enterAmountToSeeExchangeRate": {
+    "description": "Text shown when no amount is entered"
+  },
+  "error": "Error",
+  "@error": {
+    "description": "Error title"
+  },
+  "exchangeRate": "Exchange Rate",
+  "@exchangeRate": {
+    "description": "Label for exchange rate display"
+  },
+  "youSend": "You send",
+  "@youSend": {
+    "description": "Label for amount being sent"
+  },
+  "youReceive": "You receive",
+  "@youReceive": {
+    "description": "Label for amount being received"
+  },
+  "exchangeRateFormat": "1 {fromCurrency} = {exchangeRate} {toCurrency}",
+  "@exchangeRateFormat": {
+    "description": "Format for displaying exchange rate",
+    "placeholders": {
+      "fromCurrency": {
+        "type": "String"
+      },
+      "exchangeRate": {
+        "type": "String"
+      },
+      "toCurrency": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeRateDisplay": "1 {fromCurrency} = {exchangeRate} {toCurrency}",
+  "@exchangeRateDisplay": {
+    "description": "Display format for exchange rate",
+    "placeholders": {
+      "fromCurrency": {
+        "type": "String"
+      },
+      "exchangeRate": {
+        "type": "String"
+      },
+      "toCurrency": {
+        "type": "String"
+      }
+    }
+  },
+  "infoCardTitle": "How it works",
+  "@infoCardTitle": {
+    "description": "Title for the info card"
+  },
+  "infoCardDescription": "Select your currencies, enter an amount, and get real-time exchange rates. The calculation happens automatically as you type.",
+  "@infoCardDescription": {
+    "description": "Description of how the app works"
+  },
+  "pleaseEnterAmount": "Please enter an amount",
+  "@pleaseEnterAmount": {
+    "description": "Validation message for empty amount"
+  },
+  "pleaseEnterValidAmount": "Please enter a valid amount",
+  "@pleaseEnterValidAmount": {
+    "description": "Validation message for invalid amount"
+  },
+  "failedToCalculateExchange": "Failed to calculate exchange: {error}",
+  "@failedToCalculateExchange": {
+    "description": "Error message when exchange calculation fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "pleaseSelectCurrenciesAndEnterValidAmount": "Please select currencies and enter a valid amount",
+  "@pleaseSelectCurrenciesAndEnterValidAmount": {
+    "description": "Error message when required data is missing"
+  },
+  "fromCurrency": "From Currency",
+  "@fromCurrency": {
+    "description": "Label for the source currency selector"
+  },
+  "toCurrency": "To Currency",
+  "@toCurrency": {
+    "description": "Label for the target currency selector"
+  },
+  "swapCurrencies": "Swap Currencies",
+  "@swapCurrencies": {
+    "description": "Tooltip for the swap currencies button"
+  },
+  "reset": "Reset",
+  "@reset": {
+    "description": "Tooltip for the reset button"
+  },
+  "exchangeRatesUpdated": "Exchange rates are updated in real-time from our secure API",
+  "@exchangeRatesUpdated": {
+    "description": "Description in the info card about API updates"
+  },
+  "exchangeRateUpdatesAutomatically": "Exchange rate updates automatically",
+  "@exchangeRateUpdatesAutomatically": {
+    "description": "Info text shown below amount input about automatic updates"
+  }
+}
